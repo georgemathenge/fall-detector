@@ -1,27 +1,35 @@
-# FallDetector
+# 📱 Fall Detection PWA.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+A lightweight Progressive Web App (PWA) built with Angular that detects sudden device motion (like a fall)  Perfect for exploring mobile sensor data, health tracking, and real-world AI integrations.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Features
 
-## Code scaffolding
+- 📱 Motion detection using the device's accelerometer (via DeviceMotion API)
+- 🌍 Geo-tagging via HTML5 Geolocation API
+- 🧠 Prepares the groundwork for AI-based event classification
+- 💡 Can be deployed as a secure PWA or packaged via Capacitor
+- ⚙️ Built using Angular + TypeScript
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🛠️ Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [Angular](https://angular.io/)
+- HTML5 DeviceMotion API
+- HTML5 Geolocation API
+- [Vercel](https://vercel.com) for deployment
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📸 Screenshots
 
-## Running end-to-end tests
+![IMG_3828](https://github.com/user-attachments/assets/8e607705-5a2e-4e43-92f2-50ff607281e2)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 📦 Installation
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+git clone https://github.com/georgemathenge/fall-detection-pwa.git
+cd fall-detection-pwa
+npm install
